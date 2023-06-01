@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    color: #353131;
+  }
+  
+  .title {
+    color: #353131;
+  }
+  
+  .container {
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+  }
+  
+  .input-field {
+    width: 200px;
+    padding: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .input-field::-webkit-inner-spin-button,
+  .input-field::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .button {
+    padding: 0px 20px;
+    background-color: #353131;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .button:hover {
+    background-color: #1d682c;
+  }
+  
+  .result-message {
+    font-weight: bold;
+  }
